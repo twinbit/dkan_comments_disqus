@@ -41,6 +41,8 @@ function dkan_comments_disqus_user_default_permissions() {
   $permissions['view disqus comments'] = array(
     'name' => 'view disqus comments',
     'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
       'editor' => 'editor',
     ),
     'module' => 'disqus',
